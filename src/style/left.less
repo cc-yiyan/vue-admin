@@ -1,0 +1,419 @@
+@color-green: #1baf9b;
+@color-bg: #374150;
+@color-font: #b3bbc7;
+@color-bg-2: #3e4b5b;
+@color-font-2: #4e5c6f;
+.el-aside {
+    input:-ms-input-placeholder {
+        color: @color-font-2;
+    }
+    input::-webkit-input-placeholder {
+        color: @color-font-2;
+    }
+    .el-radio-group {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        .el-radio-button__inner {
+            width: 45px;
+            height: 45px;
+            font-size: 41px;
+        }
+        .logo-left {
+            width: 240px;
+            margin-top: 5px;
+            .logo-img {
+                display: block;
+                height: 45px;
+                background-image: url(../images/logo-sm.png);
+                background-repeat: no-repeat;
+                background-size: 60%;
+                background-position: 35%;
+            }
+        }
+    }
+    height: 100%;
+    width: auto !important;
+    background-color: @color-bg;
+    overflow: inherit;
+    div {
+        color: @color-font;
+    }
+    .btn-menu {
+        width: 25px;
+        height: 25px;
+        font-size: 25px;
+        color: @color-font;
+    }
+    .el-menu-item {
+        height: 45px;
+        line-height: 45px;
+        color: @color-font;
+        padding-left: 10px !important;
+    }
+    .el-submenu__title,
+    .el-menu-item:hover {
+        i {
+            color: #fff
+        }
+    }
+    .el-menu-item:last-child {
+        border-bottom: 0 !important;
+    }
+    .el-menu--collapse {
+        width: 45px;
+    }
+    [role="menuitem"] div {
+        height: 45px;
+        line-height: 45px;
+        padding-left: 10px !important;
+        i {
+            color: @color-font;
+        }
+        i:hover {
+            color: #fff;
+        }
+    }
+    .el-menu-item:focus {
+        background-color: @color-bg;
+    }
+    .el-menu-item:hover,
+    .is-opened {
+        background-color: @color-green;
+        color: #fff;
+        div {
+            i {
+                color: #fff;
+            }
+        }
+        .el-submenu__title {
+            i {
+                color: #fff !important;
+                background-color: @color-green !important;
+            }
+            .el-icon-arrow-right {
+                background-color: transparent !important;
+                top: 25px;
+                position: absolute;
+                float: right;
+            }
+        }
+    }
+    .is-active {
+        color: @color-green;
+    }
+    .el-radio-button.is-active {
+        display: none;
+    }
+    .el-menu {
+        background-color: @color-bg;
+        border: 0;
+        border-radius: 0 !important;
+    }
+    span {
+        color: @color-font;
+    }
+    .el-submenu__title {
+        border-radius: 0;
+    }
+    .el-submenu__title:hover {
+        background-color: @color-green;
+        color: #fff;
+        span {
+            color: #fff !important;
+        }
+    }
+    .el-menu--collapse .el-submenu .el-menu {
+        margin-left: 0px;
+        border: 0;
+        box-shadow: none;
+    }
+    .el-menu-item-group {
+        .el-menu-item {
+            color: @color-font !important;
+        }
+        .el-menu-item:hover {
+            background-color: @color-bg-2 !important;
+        }
+        .el-menu-item-group__title {
+            padding: 0;
+            font-size: 14px;
+            background-color: @color-bg-2 !important;
+            span {
+                color: @color-font;
+            }
+        }
+    }
+    .el-menu-item-group:first-child .el-menu-item-group__title {
+        background-color: @color-green !important;
+        span {
+            color: #fff !important;
+        }
+    }
+    .el-radio-button__inner {
+        width: 25px;
+        height: 25px;
+        background-color: #293543;
+        border: 0 !important;
+        border-radius: 0;
+        padding: 0;
+        line-height: 25px;
+        i {
+            color: @color-font;
+            font-size: 16px;
+        }
+    }
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    height: 100%;
+}
+
+.left-show {
+    width: 240px;
+    transition: width .5s;
+    -moz-transition: width .5s;
+    /* Firefox 4 */
+    -webkit-transition: width .5s;
+    /* Safari 和 Chrome */
+    -o-transition: width .5s;
+    .left-search-icon {
+        >i {
+            display: none;
+        }
+        .left-search {
+            width: 240px;
+            transition: width .5s;
+            -moz-transition: width .5s;
+            /* Firefox 4 */
+            -webkit-transition: width .5s;
+            /* Safari 和 Chrome */
+            -o-transition: width .5s;
+        }
+    }
+    .el-menu-item-group:first-child .el-menu-item-group__title {
+        background-color: @color-bg-2 !important;
+        span {
+            color: @color-font !important;
+        }
+    }
+    .is-opened {
+        .el-submenu__title {
+            color: #fff;
+            span {
+                color: #fff;
+            }
+        }
+    }
+    .el-submenu {
+        .el-menu-item {
+            padding-left: 20px !important;
+        }
+        .el-menu-item:hover {
+            background-color: @color-bg-2;
+            color: #fff;
+        }
+        .el-menu-item-group__title {
+            padding-left: 30px !important;
+        }
+        [tabindex="-1"] {
+            padding-left: 40px !important;
+        }
+        .el-submenu__title {
+            i {
+                background-color: transparent !important;
+            }
+        }
+    }
+    .el-menu-item {
+        padding-left: 10px !important;
+        border-bottom: 1px solid @color-bg-2;
+    }
+    .el-menu-item:last-child {
+        border-bottom: none;
+    }
+    .el-menu-item:hover {
+        span {
+            color: #fff !important;
+        }
+    }
+    .el-submenu__title:hover {
+        color: #fff !important;
+        span {
+            color: #fff !important;
+        }
+        i {
+            color: #fff !important;
+        }
+    }
+    .el-radio-group {
+        display: block;
+        overflow: hidden;
+        padding-top: 10px;
+        background-color: @color-bg-2;
+        padding-bottom: 10px;
+        .logo-left {
+            display: block;
+            overflow: hidden;
+            .el-radio-button__inner {
+                width: 25px;
+                height: 25px;
+                font-size: 15px;
+                transition: all 0s;
+                i {
+                    font-size: 16px;
+                }
+            }
+            .logo-img {
+                background-image: url(../images/logo.png);
+                width: 120px;
+                height: 30px;
+                background-size: 100%;
+                display: inline-block;
+                background-position: 0;
+            }
+            .el-radio-button {
+                float: right;
+                right: 10px;
+                top: 5px;
+            }
+        }
+    }
+    .el-radio-button:last-child .el-radio-button__inner {
+        border-radius: 0;
+    }
+}
+
+.left-search-main {
+    position: relative
+}
+
+.left-hide {
+    width: 45px;
+    transition: width .5s;
+    -moz-transition: width .5s;
+    /* Firefox 4 */
+    -webkit-transition: width .5s;
+    /* Safari 和 Chrome */
+    -o-transition: width .5s;
+    .el-menu-vertical-demo {
+        width: 45px;
+        transition: width .2s;
+        -moz-transition: width .2s;
+        /* Firefox 4 */
+        -webkit-transition: width .2s;
+        /* Safari 和 Chrome */
+        -o-transition: width .2s;
+    }
+    .el-menu-item:hover {
+        .title-text {
+            display: block;
+            width: 200px;
+            height: 45px;
+            position: absolute;
+            left: 45px;
+            top: 0px;
+            background-color: @color-green;
+            color: #fff;
+            line-height: 45px;
+            padding-left: 20px;
+            visibility: visible;
+        }
+        span{color: #Fff;}
+    }
+    .is-active {
+        .el-tooltip i {
+            color: @color-green;
+        }
+    }
+    .el-radio-group .logo-left {
+        width: 45px;
+        transform: width .5s;
+    }
+    .left-search {
+        display: block;
+        width: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+        transition: width .5s;
+        -moz-transition: width .5s;
+        /* Firefox 4 */
+        -webkit-transition: width .5s;
+        /* Safari 和 Chrome */
+        -o-transition: width .5s;
+    }
+    .left-search-icon {
+        height: 45px;
+        display: block;
+        font-size: 20px;
+        line-height: 45px;
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+        position: relative;
+        cursor: pointer;
+        .u-s-inp {
+            width: 0;
+        }
+        i {
+            color: @color-font;
+        }
+    }
+    .left-search-icon:hover {
+        .left-search {
+            width: 240px;
+            display: block;
+            position: absolute;
+            visibility: inherit;
+            left: 45px;
+            top: 0px;
+            background-color: @color-bg;
+            .u-s-inp {
+                width: 220px;
+                border-bottom: 0;
+                background-color: @color-bg;
+                top: -3px;
+            }
+            i {
+                right: 10px;
+                top: 15px;
+                font-size: 14px;
+                color: @color-font-2;
+            }
+        }
+    }
+}
+
+.left-search {
+    display: block;
+    height: 45px;
+    position: relative;
+    background-color: @color-bg-2;
+    .u-s-inp {
+        width: 205px;
+        transition: width .5s;
+        -moz-transition: width .5s;
+        /* Firefox 4 */
+        -webkit-transition: width .5s;
+        /* Safari 和 Chrome */
+        -o-transition: width .5s;
+        line-height: 25px;
+        border-bottom: 1px solid @color-font-2;
+        background-color: @color-bg-2;
+        margin-left: 15px;
+        padding-right: 20px;
+        font-size: 14px;
+        color: @color-font;
+        position: relative;
+        top: 5px;
+    }
+    i {
+        position: absolute;
+        float: right;
+        right: 20px;
+        top: 10px;
+        color: @color-font-2;
+    }
+}

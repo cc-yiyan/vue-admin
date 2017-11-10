@@ -1,0 +1,41 @@
+[{
+	"name":"use1",
+	"charName":"访客数",
+	"today":"980",
+	"yesterday":"1,980"
+},{
+	"name":"use2",
+	"charName":"新会员数",
+	"today":"67",
+	"yesterday":"580"
+},{
+	"name":"use3",
+	"charName":"借款申请数",
+	"today":"67",
+	"yesterday":"580"
+},{
+	"name":"use4",
+	"charName":"首贷通过率",
+	"today":"6.7%",
+	"yesterday":"7.7%"
+},{
+	"name":"use1",
+	"charName":"访客数",
+	"today":"1233",
+	"yesterday":"12333"
+},{
+	"name":"use1",
+	"charName":"访客数",
+	"today":"1233",
+	"yesterday":"12333"
+},{
+	"name":"use1",
+	"charName":"访客数",
+	"today":"1233",
+	"yesterday":"12333"
+},{
+	"name":"use1",
+	"charName":"访客数",
+	"today":"1233",
+	"yesterday":"12333"
+}]

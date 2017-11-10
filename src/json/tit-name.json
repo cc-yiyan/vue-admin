@@ -1,0 +1,9 @@
+{
+	"date":"日期",
+            "weekUsers":"周活跃用户",
+            "startUsers":"起始用户",
+            "dailyMonth":"日活/月活",
+            "monthActive":"月活跃用户",
+            "monthSilent":"月沉默用户",
+            "cumulativeStart":"累计用户"
+}

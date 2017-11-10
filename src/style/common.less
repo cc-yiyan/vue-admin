@@ -1,0 +1,112 @@
+    body,
+    div,
+    span,
+    header,
+    footer,
+    nav,
+    section,
+    aside,
+    article,
+    ul,
+    dl,
+    dt,
+    dd,
+    li,
+    a,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    i,
+    b,
+    textarea,
+    button,
+    input,
+    select {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        color: #313131;
+        box-sizing: border-box;
+        font-weight: lighter;
+        font-family: 'Microsoft YaHei';
+        -webkit-tap-highlight-color: transparent;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        height: 100%;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+
+    .clear:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .clear {
+        zoom: 1;
+    }
+
+    .back_img {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .margin {
+        margin: 0 auto;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    @main-bg: #f0f3fa;
+    .el-main {
+        background-color: @main-bg;
+    }
+
+    [class*=" icon-"],
+    [class^=icon-] {
+        speak: none;
+        font-style: normal;
+        font-weight: 400;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        vertical-align: baseline;
+        display: inline-block;
+        -webkit-font-smoothing: antialiased;
+        margin-right: 5px;
+        width: 24px;
+        text-align: center;
+        font-size: 16px;
+        position: relative;
+        top: 2px;
+    }

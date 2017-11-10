@@ -1,0 +1,43 @@
+[
+{
+    "charName": "周活跃用户",
+    "name":"weekUsers",
+    "note": "新用户占比=新用户数/启动用户数*100%",
+    "value": "1231",
+    "state": "show"
+},
+{
+    "charName": "启动用户",
+    "name":"startUsers",
+    "note": "新用户占比=新用户数/启动用户数*100%",
+    "value": "1231",
+    "state": "show"
+},
+{
+    "charName": "日活/月活",
+    "name":"dailyMonth",
+    "note": "新用户占比=新用户数/启动用户数*100%",
+    "value": "1231",
+    "state": "show"
+},
+{
+    "charName": "月活跃用户",
+    "name":"monthActive",
+    "note": "新用户占比=新用户数/启动用户数*100%",
+    "value": "1231",
+    "state": "show"
+},
+{
+    "charName": "月沉默用户",
+    "name":"monthSilent",
+    "note": "新用户占比=新用户数/启动用户数*100%",
+    "value": "1231",
+    "state": "show"
+},
+{
+    "charName": "累计启动用户",
+    "name":"cumulativeStart",
+    "note": "新用户占比=新用户数/启动用户数*100%",
+    "value": "1231",
+    "state": "show"
+}]
